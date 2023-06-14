@@ -1,0 +1,52 @@
+body {
+    background-color: black;
+    font-family: arial;
+    color: white;
+}
+
+h1 {
+    color: grey;
+    font-family: verdana;
+}
+
+.maindiv {
+    background-color: white;
+    color: black;
+    width: 300px;
+    padding: 20px;
+    border-radius: 25px;
+    text-align: center;
+}
+ChatGPT
+Great! You have provided some custom CSS styles to enhance the appearance of the calculator. Here's an updated version of the code with your provided styles incorporated:
+
+css
+Copy code
+body {
+    background-color: black;
+    font-family: Arial;
+    color: white;
+}
+
+h1 {
+    color: grey;
+    font-family: Verdana;
+}
+
+.maindiv {
+    background-color: white;
+    color: black;
+    width: 300px;
+    padding: 20px;
+    border-radius: 25px;
+    text-align: center;
+}
+These styles will apply a black background color to the body, set the font family to Arial for the body text, and change the color to white for better contrast. The h1 element will have a color of grey and use the Verdana font. The maindiv class will have a white background, black text color, a width of 300px, padding of 20px, and a border radius of 25px, giving it a rounded shape. The text inside the maindiv will be centered.
+
+Feel free to modify these styles further or add additional custom CSS rules to achieve your desired visual effects.
+
+
+
+
+
+
