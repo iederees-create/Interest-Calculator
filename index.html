@@ -24,8 +24,7 @@
 
             <div class="form-group">
                 <label for="rate">Rate</label>
-                <input type="range" id="rate" class="form-control-range" min="1" max="20" value="10.25" step="0.25" onchange="updateRate()">
-                <output for="rate" id="rate_val">10.25%</output>
+                <input type="number" id="rate" class="form-control" step="0.01" placeholder="Enter the interest rate" required>
             </div>
 
             <div class="form-group">
@@ -39,15 +38,10 @@
         </div>
 
         <footer class="text-center">
-            &copy; This Calculator was creates by --Iederees Francis--
+            &copy; This Calculator was created by --Iederees Francis--
         </footer>
 
         <script>
-            function updateRate() {
-                var rate = document.getElementById("rate").value;
-                document.getElementById("rate_val").textContent = rate + "%";
-            }
-            
             function compute() {
                 var principal = parseFloat(document.getElementById("principal").value);
                 var rate = parseFloat(document.getElementById("rate").value);
